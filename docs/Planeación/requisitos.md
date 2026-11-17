@@ -33,11 +33,11 @@ Contador de líneas de código (LOC) en C# (.NET 9) con arquitectura por capas.
 - **No cuenta:** líneas en blanco y líneas que solo tienen comentario (`//`, `///`, `/* */`).
 - **Parte:** declaración de tipo (class, record, struct, interface).
 - **Elemento:** método o constructor, no propiedades.
-- La detección usa expresiones regulares más conteo de llaves, sin comentarios especiales; así el Programa 1 no hay que modificarlo.
+- La detección usa expresiones regulares más conteo de llaves, sin comentarios especiales.
 
 ## 4. Pruebas mínimas exigidas por el kit
 
-Contar el tamaño total y el de las partes de los programas 1 y 2.
+Contar el tamaño total y el de las partes de programas fuente reales, incluido este mismo programa, y comparar con el conteo manual.
 
 ## 5. Salida esperada (formato de la Tabla 1 del kit)
 
