@@ -99,5 +99,14 @@ public sealed class ConsolaUI
 
         _salida.WriteLine(mensajeFinal);
     }
+
+    /// <summary>
+    /// Pausa la ejecución solicitando la confirmación del usuario antes de finalizar el programa.
+    /// </summary>
+    public void EsperarSalida()
+    {
+        _salida.WriteLine("Presione Enter para salir...");
+        _entrada.ReadLine();
+    }
 }
 

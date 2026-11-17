@@ -30,14 +30,18 @@ public static class Aplicacion
 
         var ui = new ConsolaUI(entrada, salida);
 
+        int codigoSalida;
         try
         {
-            return ProcesarFlujo(args, ui);
+            codigoSalida = ProcesarFlujo(args, ui);
         }
         catch (Exception ex)
         {
-            return ManejarExcepcion(ex, ui);
+            codigoSalida = ManejarExcepcion(ex, ui);
         }
+
+        ui.EsperarSalida();
+        return codigoSalida;
     }
 
     private static int ProcesarFlujo(string[] args, ConsolaUI ui)
