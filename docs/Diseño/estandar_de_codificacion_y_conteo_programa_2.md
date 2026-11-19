@@ -15,7 +15,7 @@ Basado en las convenciones de Microsoft para C# y las especificaciones del SEI P
 | E-09 | Comentarios XML `///` en miembros públicos; comentarios `//` solo para explicar el **porqué**. | `/// <summary>Analiza las líneas...</summary>` | `// suma uno` |
 | E-10 | Validar argumentos públicos al inicio del método. | `ArgumentNullException.ThrowIfNull(ruta);` | — |
 | E-11 | Errores manejados con **excepciones propias**; nunca capturar `Exception` de forma vacía. | `ArchivoNoEncontradoException` | `catch { }` |
-| E-12 | Conteo de LOC físicas: se excluyen líneas en blanco y comentarios puros según el estándar de conteo PSP. | Omitir `//` y `}` sueltas si aplica el estándar | Contar líneas vacías como código |
+| E-12 | Conteo de LOC físicas: cuenta toda línea con código, incluidas las que solo tienen `{` o `}`; se excluyen líneas en blanco y comentarios puros (`//`, `///`, `/* */`). | Una `}` suelta cuenta 1 LOC | Contar líneas vacías o comentarios como código |
 | E-13 | Tipos anulables activados (`<Nullable>enable</Nullable>`). | `string?` | Manejar `null` con referencias sin control |
 | E-14 | Sin código comentado ni sentencias `Console.WriteLine` de depuración en commits. | Código limpio | `// Console.WriteLine(x);` |
 | E-15 | La capa de dominio no utiliza operaciones de E/S ni la consola (`Console`). | `ContadorCodigo` recibe un `IEnumerable<string>` | Leer archivos dentro del dominio |
