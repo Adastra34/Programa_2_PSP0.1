@@ -2,13 +2,13 @@
 
 Contador de líneas de código (LOC) en C# (.NET 9) con arquitectura por capas.
 
-**Objetivo:** contar LOC de un archivo fuente `.cs` y mostrar el total, el tamaño de cada parte y el número de elementos de cada parte.
+**Objetivo:** contar LOC de uno o varios archivos fuente `.cs` y mostrar el total, el tamaño de cada parte y el número de elementos de cada parte.
 
 ## 1. Requisitos funcionales
 
 | ID | Requisito | Criterio de aceptación |
 |---|---|---|
-| RF-01 | Leer un archivo `.cs` desde una ruta | Un archivo válido se lee completo |
+| RF-01 | Leer archivos `.cs` desde una ruta que puede ser un archivo o un directorio (incluye subdirectorios) | Un archivo válido se lee completo; un directorio aporta todos sus `.cs`; si no hay ninguno, se muestra un error |
 | RF-02 | Contar LOC según el estándar de conteo | Se excluyen líneas en blanco y líneas solo de comentario |
 | RF-03 | Identificar partes (class, record, struct, interface) | Cada parte aparece con su nombre |
 | RF-04 | Contar elementos por parte (métodos y constructores) | El conteo coincide con el conteo manual |
