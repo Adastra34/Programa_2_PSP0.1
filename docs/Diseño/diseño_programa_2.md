@@ -44,6 +44,6 @@ Formato de entrada: Archivos de texto plano `*.cs` en codificación UTF-8.
 | Obtención de ruta y argumentos | `Aplicacion.Ejecutar`, `ConsolaUI.PedirRuta` | CP-01, CP-02 |
 | Búsqueda y lectura de archivos `.cs` | `LectorArchivosCodigo.ObtenerArchivosFuente`, `LeerLineas` | CP-03, CP-04 |
 | Identificación y conteo de partes (clases) | `ContadorCodigo.ProcesarArchivo` | CP-05 |
-| Identificación y conteo de ítems (métodos) | `ContadorCodigo.AnalizarMetodos` | CP-06 |
+| Identificación y conteo de ítems (métodos) | `ContadorCodigo.ProcesarLinea`, `ContadorCodigo.EsDeclaracionElemento` | CP-06 |
 | Cálculo de tamaño físico y total (LOC) | `MetricasPrograma.ObtenerTamanioTotal` | CP-07 |
 | Gestión de excepciones y errores de E/S | `ArchivoNoEncontradoException`, `Aplicacion` | CP-08, CP-09 |
