@@ -17,6 +17,9 @@ public static partial class ContadorCodigo
         "class", "record", "struct", "interface", "enum", "delegate", "sizeof", "typeof"
     };
 
+    private const int LongitudMarcaComentario = 2;
+    private const int LongitudSecuenciaEscape = 2;
+
     /// <summary>
     /// Cuenta las líneas físicas de código contables en una secuencia de líneas, descartando comentarios y líneas vacías.
     /// </summary>
@@ -178,7 +181,7 @@ public static partial class ContadorCodigo
         if (indice + 1 < linea.Length && linea[indice] == '*' && linea[indice + 1] == '/')
         {
             enBloque = false;
-            return indice + 2;
+            return indice + LongitudMarcaComentario;
         }
 
         return indice + 1;
@@ -206,7 +209,7 @@ public static partial class ContadorCodigo
         if (indice + 1 < longitud && linea[indice] == '/' && linea[indice + 1] == '*')
         {
             enBloque = true;
-            return indice + 2;
+            return indice + LongitudMarcaComentario;
         }
 
         if (linea[indice] == '"' || linea[indice] == '\'')
@@ -230,7 +233,7 @@ public static partial class ContadorCodigo
         {
             if (linea[pos] == '\\' && pos + 1 < longitud)
             {
-                pos += 2;
+                pos += LongitudSecuenciaEscape;
             }
             else if (linea[pos] == delimitador)
             {
