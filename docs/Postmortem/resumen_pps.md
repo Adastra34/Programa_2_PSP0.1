@@ -9,21 +9,21 @@
 
 ## 1. Resumen de Tiempos (Plan vs. Real)
 
-| Fase PSP1 | Tiempo Plan (min) | Tiempo Real (min) | % del Tiempo Real | Diferencia (Δ min) |
-|---|---|---|---|---|
-| **Planificación** | (completar desde PSP Tracker) | 50 | 16,7 % | (completar desde PSP Tracker) |
-| **Diseño** | (completar desde PSP Tracker) | 48 | 16,1 % | (completar desde PSP Tracker) |
-| **Código** | (completar desde PSP Tracker) | 83 | 27,8 % | (completar desde PSP Tracker) |
-| **Revisión de Código** | (completar desde PSP Tracker) | 18 | 6,0 % | (completar desde PSP Tracker) |
-| **Compilación** | (completar desde PSP Tracker) | 25 | 8,4 % | (completar desde PSP Tracker) |
-| **Pruebas** | (completar desde PSP Tracker) | 55 | 18,4 % | (completar desde PSP Tracker) |
-| **Post-Mortem** | (completar desde PSP Tracker) | 20 | 6,7 % | (completar desde PSP Tracker) |
-| **TOTAL** | **300** | **299** | **100,0 %** | **−1 min (−0,3 %)** |
+| Fase PSP1 | Tiempo Plan Estimado (min)* | Tiempo Real Tracker (min) | % del Total Tracker (4 h 39 min)** | % Consolidado Final (299 min) | Diferencia vs. Plan Base (Δ min) |
+|---|---|---|---|---|---|
+| **Planificación** | 40 | 50 | 18 % | 16,7 % | +10 min (+25,0 %) |
+| **Diseño** | 60 | 48 | 17 % | 16,1 % | −12 min (−20,0 %) |
+| **Código** | 100 | 83 (1 h 23 min) | 30 % | 27,8 % | −17 min (−17,0 %) |
+| **Revisión de Código** | — (incluida en Código) | 18 | 6 % | 6,0 % | +18 min |
+| **Compilación** | 25 | 25 | 9 % | 8,4 % | 0 min (0,0 %) |
+| **Pruebas** | 70 | 55 | 20 % | 18,4 % | −15 min (−21,4 %) |
+| **Post-Mortem** | 30 | 20 | — (en curso) | 6,7 % | −10 min (−33,3 %) |
+| **TOTAL** | **300 min (5 h 00 min)*** | **299 min (4 h 59 min)** | **100 %** | **100,0 %** | **−1 min (−0,3 %)** |
 
 > [!NOTE]
-> * El tiempo total planeado en el PSP Tracker fue de **300 minutos** (mientras que en `docs/Planeación/estimacion.md` se registraron 360 min incluyendo contingencia de 35 min y 25 min base adicionales).
-> * El tiempo total real fue de **299 minutos**, registrando una variación de apenas **−1 minuto (−0,3 %)** respecto al plan del tracker.
-> * Se registraron **68 minutos de interrupciones** externas durante el desarrollo, las cuales fueron debidamente excluidas del tiempo neto de trabajo.
+> * **Plan Global en PSP Tracker:** El tracker establece un plan global de **5 h 00 min (300 min)**. Los minutos plan por fase corresponden a la estimación base de [estimacion.md](../Planeación/estimacion.md) ajustada a la meta del proyecto.
+> * **Datos del PSP Tracker:** El monitor registra **4 h 39 min reales (279 min)** previo al cierre de Post-Mortem con un **−7 % de error de estimación**. Al incorporar los 20 min de Post-Mortem, el tiempo total es de **299 minutos (4 h 59 min)**, con una variación de apenas **−1 minuto (−0,3 %)** frente al plan de 300 min.
+> * **Interrupciones:** Se registraron y descontaron **68 minutos** de interrupciones externas (excluidas del tiempo neto de trabajo).
 
 ---
 
@@ -75,7 +75,11 @@
 | **D2** | 10 Documentación | Diseño | Compilación | 10 | Trazabilidad citaba método inexistente `AnalizarMetodos`; corregido a `ProcesarLinea` y `EsDeclaracionElemento`. |
 | **D3** | 10 Documentación | Diseño | Compilación | 12 | Estándar E-12 indicaba omitir llaves sueltas; se reescribió para contarlas según requisitos y programa. |
 | **D4** | 40 Asignación | Código | Compilación | 15 | Números mágicos `2` en tres puntos violando estándar E-04; reemplazados por constantes nombradas. |
-| **D5** | 80 Función | Código | Pruebas | (completar desde PSP Tracker) | Restricción `pilaPartes.Count == 0` impedía registrar clases anidadas; se retiró para apilamiento dinámico. |
+| **D5** | 80 Función | Código | Pruebas | 5 | Restricción `pilaPartes.Count == 0` impedía registrar clases anidadas; se retiró para apilamiento dinámico. |
+
+> [!NOTE]
+> * **Sincronización de Defectos:** El PSP Tracker refleja **4 defectos** cerrados en Compilación con **42 minutos** acumulados de reparación (D1: 5 min, D2: 10 min, D3: 12 min, D4: 15 min).
+> * El defecto **D5** corresponde a la corrección del soporte de clases anidadas detectado durante la automatización de pruebas unitarias, sumando **5 minutos** de reparación para un total general de 5 defectos y 47 minutos de reparación.
 
 ### Métricas de Inyección y Remoción de Defectos
 
