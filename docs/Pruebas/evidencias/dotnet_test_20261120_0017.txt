@@ -1,0 +1,144 @@
+﻿Compilación iniciada a las 20/11/2026 12:18:39 a. m..
+     1>Proyecto "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\Programa2.ContadorLOC.sln" en el nodo 1 (Restore destinos).
+     1>ValidateSolutionConfiguration:
+         Compilando la configuración de soluciones "Debug|Any CPU".
+       _GetAllRestoreProjectPathItems:
+         Determinando los proyectos que se van a restaurar...
+       Restore:
+         La validación de la cadena de certificados X.509 utilizará el almacén de confianza predeterminado seleccionado por .NET para la firma de código.
+         La validación de la cadena de certificados X.509 utilizará el almacén de confianza predeterminado seleccionado por .NET para la marca de tiempo.
+         El archivo de recursos no ha cambiado, así que se omitirá su escritura. Ruta de acceso: C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\src\Programa2.ContadorLOC\obj\project.assets.json
+         El archivo de recursos no ha cambiado, así que se omitirá su escritura. Ruta de acceso: C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\test\Programa2.ContadorLOC.Tests\obj\project.assets.json
+         Se ha restaurado C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\src\Programa2.ContadorLOC\Programa2.ContadorLOC.csproj (en 34 ms).
+         Se ha restaurado C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\test\Programa2.ContadorLOC.Tests\Programa2.ContadorLOC.Tests.csproj (en 36 ms).
+         
+         Archivos de NuGet Config usados:
+             C:\Users\USER\AppData\Roaming\NuGet\NuGet.Config
+             C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.FallbackLocation.config
+             C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.Offline.config
+         
+         Fuentes usadas:
+             https://api.nuget.org/v3/index.json
+             C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+             C:\Program Files\dotnet\library-packs
+         Todos los proyectos están actualizados para la restauración.
+     1>Compilación del proyecto terminada "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\Programa2.ContadorLOC.sln" (Restore destinos).
+   1:2>Proyecto "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\Programa2.ContadorLOC.sln" en el nodo 1 (VSTest destinos).
+     1>ValidateSolutionConfiguration:
+         Compilando la configuración de soluciones "Debug|Any CPU".
+   1:2>El proyecto "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\Programa2.ContadorLOC.sln" (1:2) está compilando "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\test\Programa2.ContadorLOC.Tests\Programa2.ContadorLOC.Tests.csproj" (3:6) en el nodo 2 (VSTest destinos).
+     3>BuildProject:
+         Compilación iniciada, espere...
+   3:6>El proyecto "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\test\Programa2.ContadorLOC.Tests\Programa2.ContadorLOC.Tests.csproj" (3:6) está compilando "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\test\Programa2.ContadorLOC.Tests\Programa2.ContadorLOC.Tests.csproj" (3:7) en el nodo 2 (destinos predeterminados).
+   3:7>El proyecto "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\test\Programa2.ContadorLOC.Tests\Programa2.ContadorLOC.Tests.csproj" (3:7) está compilando "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\src\Programa2.ContadorLOC\Programa2.ContadorLOC.csproj" (2:9) en el nodo 1 (destinos predeterminados).
+     2>GenerateTargetFrameworkMonikerAttribute:
+       Se omitirá el destino "GenerateTargetFrameworkMonikerAttribute" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CoreGenerateAssemblyInfo:
+       Se omitirá el destino "CoreGenerateAssemblyInfo" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       _GenerateSourceLinkFile:
+         El archivo de Source Link 'obj\Debug\net9.0\Programa2.ContadorLOC.sourcelink.json' está actualizado.
+       CoreCompile:
+       Se omitirá el destino "CoreCompile" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       _CreateAppHost:
+       Se omitirá el destino "_CreateAppHost" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       _CopyOutOfDateSourceItemsToOutputDirectory:
+       Se omitirá el destino "_CopyOutOfDateSourceItemsToOutputDirectory" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       GenerateBuildDependencyFile:
+       Se omitirá el destino "GenerateBuildDependencyFile" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       GenerateBuildRuntimeConfigurationFiles:
+       Se omitirá el destino "GenerateBuildRuntimeConfigurationFiles" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CopyFilesToOutputDirectory:
+         Programa2.ContadorLOC -> C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\src\Programa2.ContadorLOC\bin\Debug\net9.0\Programa2.ContadorLOC.dll
+     2>Compilación del proyecto terminada "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\src\Programa2.ContadorLOC\Programa2.ContadorLOC.csproj" (destinos predeterminados).
+     3>GenerateTargetFrameworkMonikerAttribute:
+       Se omitirá el destino "GenerateTargetFrameworkMonikerAttribute" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CoreGenerateAssemblyInfo:
+       Se omitirá el destino "CoreGenerateAssemblyInfo" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       _GenerateSourceLinkFile:
+         El archivo de Source Link 'obj\Debug\net9.0\Programa2.ContadorLOC.Tests.sourcelink.json' está actualizado.
+       CoreCompile:
+       Se omitirá el destino "CoreCompile" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       _CopyOutOfDateSourceItemsToOutputDirectory:
+       Se omitirá el destino "_CopyOutOfDateSourceItemsToOutputDirectory" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       GenerateBuildDependencyFile:
+       Se omitirá el destino "GenerateBuildDependencyFile" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       GenerateBuildRuntimeConfigurationFiles:
+       Se omitirá el destino "GenerateBuildRuntimeConfigurationFiles" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CopyFilesToOutputDirectory:
+         Programa2.ContadorLOC.Tests -> C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\test\Programa2.ContadorLOC.Tests\bin\Debug\net9.0\Programa2.ContadorLOC.Tests.dll
+     3>Compilación del proyecto terminada "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\test\Programa2.ContadorLOC.Tests\Programa2.ContadorLOC.Tests.csproj" (destinos predeterminados).
+     3>BuildProject:
+         Se completó la compilación.
+         
+Serie de pruebas para C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\test\Programa2.ContadorLOC.Tests\bin\Debug\net9.0\Programa2.ContadorLOC.Tests.dll (.NETCoreApp,Version=v9.0)
+Versión 17.14.1 (x64) de VSTest
+
+Iniciando la ejecución de pruebas, espere...
+1 archivos de prueba en total coincidieron con el patrón especificado.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.16)
+[xUnit.net 00:00:00.05]   Discovering: Programa2.ContadorLOC.Tests
+[xUnit.net 00:00:00.08]   Discovered:  Programa2.ContadorLOC.Tests
+[xUnit.net 00:00:00.08]   Starting:    Programa2.ContadorLOC.Tests
+  Correctas Programa2.ContadorLOC.Tests.ConteoLocTests.CP02_ComentarioLineaSimple_Excluido [5 ms]
+  Correctas Programa2.ContadorLOC.Tests.SalidaYFlujoTests.CP33_Error_CodigoSalidaUno [8 ms]
+  Correctas Programa2.ContadorLOC.Tests.ConteoLocTests.CP06_CodigoConComentarioAlFinal_CuentaUno [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ConteoLocTests.CP08_CadenaConDobleSlash_CuentaComoCodigo [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ConteoLocTests.CP03_ComentarioXmlDoc_Excluido [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ConteoLocTests.CP09_CodigoDespuesDeCierreBloque_Cuenta [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ConteoLocTests.CP01_LineasEnBlanco_NoSeCuentan [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ArchivosYRutasTests.CP25_DirectorioConSubdirectorios_LeeTodosLosCs [9 ms]
+  Correctas Programa2.ContadorLOC.Tests.ConteoLocTests.CP04_ComentarioBloqueUnaLinea_Excluido [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ConteoLocTests.CP07_LlaveSuelta_CuentaUno [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ConteoLocTests.CP05_ComentarioBloqueMultilinea_Excluido [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ElementosTests.CP23_LambdasYLlamadas_NoCuentanComoElementos [11 ms]
+  Correctas Programa2.ContadorLOC.Tests.ElementosTests.CP19_MetodoYConstructor_CuentanComoElementos [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ElementosTests.CP22_MetodoCuerpoExpresion_CuentaComoElemento [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ElementosTests.CP21_EstructurasControl_NoCuentanComoElementos [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.KitFuenteTests.CP38_PruebaKit_ArchivosFuenteReales(relativo: "Program.cs", locEsperado: 9, parteEsperada: "Program", itemsEsperados: 1, locParteEsperada: 7) [11 ms]
+  Correctas Programa2.ContadorLOC.Tests.ElementosTests.CP20_Propiedades_NoCuentanComoElementos [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ArchivosYRutasTests.CP30_RutaEntreComillas_SeProcesaCorrectamente [3 ms]
+  Correctas Programa2.ContadorLOC.Tests.PartesTests.CP10_UnaClase_DetectaUnaParte [11 ms]
+  Correctas Programa2.ContadorLOC.Tests.PartesTests.CP12_Interface_DetectadaComoParte [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.PartesTests.CP11_DosClases_ReportaCadaParte [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.PartesTests.CP16_ClaseConLlaveAllman_DetectadaCorrectamente [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.KitFuenteTests.CP38_PruebaKit_ArchivosFuenteReales(relativo: "Dominio/MetricasParte.cs", locEsperado: 17, parteEsperada: "MetricasParte", itemsEsperados: 1, locParteEsperada: 15) [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.PartesTests.CP18_ClaseAnidada_CadaParteConSuPropioLoc [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.PartesTests.CP13_Struct_DetectadaComoParte [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.PartesTests.CP17_NamespaceFileScopedNoEsParte [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.SalidaYFlujoTests.CP35_Determinismo_DosEjecucionesIguales [5 ms]
+  Correctas Programa2.ContadorLOC.Tests.PartesTests.CP18_SumaPartesNoSuperaTotal [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.KitFuenteTests.CP38_PruebaKit_ArchivosFuenteReales(relativo: "Presentacion/ConsolaUI.cs", locEsperado: 67, parteEsperada: "ConsolaUI", itemsEsperados: 6, locParteEsperada: 63) [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.PartesTests.CP15_RecordPosicional_DetectadoComoParte [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.PartesTests.CP14_RecordConCuerpo_DetectadoComoParte [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ArchivosYRutasTests.CP27_RutaInexistente_LanzaArchivoNoEncontradoException [1 ms]
+  Correctas Programa2.ContadorLOC.Tests.KitFuenteTests.CP38_PruebaKit_ArchivosFuenteReales(relativo: "Dominio/ContadorCodigo.cs", locEsperado: 250, parteEsperada: "ContadorCodigo", itemsEsperados: 17, locParteEsperada: 245) [1 ms]
+  Correctas Programa2.ContadorLOC.Tests.KitFuenteTests.CP38_PruebaKit_ArchivosFuenteReales(relativo: "Dominio/ArchivoInvalidoException.cs", locEsperado: 16, parteEsperada: "ArchivoInvalidoException", itemsEsperados: 3, locParteEsperada: 14) [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.KitFuenteTests.CP38_PruebaKit_ArchivosFuenteReales(relativo: "Infraestructura/LectorArchivosCodigo.cs", locEsperado: 59, parteEsperada: "LectorArchivosCodigo", itemsEsperados: 4, locParteEsperada: 53) [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ArchivosYRutasTests.CP24_ArchivoCsValido_SeLeeCorrectamente [2 ms]
+  Correctas Programa2.ContadorLOC.Tests.KitFuenteTests.CP38_PruebaKit_ArchivosFuenteReales(relativo: "Aplicacion.cs", locEsperado: 77, parteEsperada: "Aplicacion", itemsEsperados: 5, locParteEsperada: 70) [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.KitFuenteTests.CP38_PruebaKit_ArchivosFuenteReales(relativo: "Dominio/MetricasPrograma.cs", locEsperado: 32, parteEsperada: "MetricasPrograma", itemsEsperados: 3, locParteEsperada: 28) [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.KitFuenteTests.CP38_PruebaKit_ArchivosFuenteReales(relativo: "Infraestructura/ArchivoNoEncontradoException.cs", locEsperado: 16, parteEsperada: "ArchivoNoEncontradoException", itemsEsperados: 3, locParteEsperada: 14) [< 1 ms]
+  Correctas Programa2.ContadorLOC.Tests.ArchivosYRutasTests.CP26_DirectorioSinCs_LanzaArchivoInvalidoException [3 ms]
+  Correctas Programa2.ContadorLOC.Tests.ArchivosYRutasTests.CP28_ArchivoVacio_CeroLoc [2 ms]
+  Correctas Programa2.ContadorLOC.Tests.ArchivosYRutasTests.CP29_ArchivoNoCs_LanzaArchivoInvalidoException [2 ms]
+  Correctas Programa2.ContadorLOC.Tests.SalidaYFlujoTests.CP31_SalidaTabular_ContieneColumnasEsperadas [11 ms]
+[xUnit.net 00:00:00.14]   Finished:    Programa2.ContadorLOC.Tests
+  Correctas Programa2.ContadorLOC.Tests.SalidaYFlujoTests.CP36_RutaVacia_CodigoError [1 ms]
+  Correctas Programa2.ContadorLOC.Tests.SalidaYFlujoTests.CP34_RutaInexistente_MuestraErrorSinExcepcion [1 ms]
+  Correctas Programa2.ContadorLOC.Tests.SalidaYFlujoTests.CP32_Exito_CodigoSalidaCero [2 ms]
+  Correctas Programa2.ContadorLOC.Tests.SalidaYFlujoTests.CP37_SinArgumentos_PideRutaInteractivamente [2 ms]
+
+La serie de pruebas se ejecutó correctamente.
+Pruebas totales: 47
+     Correcto: 47
+ Tiempo total: 0,4976 Segundos
+     3>Compilación del proyecto terminada "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\test\Programa2.ContadorLOC.Tests\Programa2.ContadorLOC.Tests.csproj" (VSTest destinos).
+     1>Compilación del proyecto terminada "C:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\Programa2.ContadorLOC.sln" (VSTest destinos).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:02.01
+
+Hay actualizaciones de carga de trabajo disponibles. Ejecute "dotnet workload list" para obtener más información.

@@ -84,13 +84,10 @@ public static partial class ContadorCodigo
         Stack<(string NombreParte, int ProfundidadBase, int TamanioLOC, int NumeroElementos)> pilaPartes,
         List<MetricasParte> partesFinalizadas)
     {
-        if (pilaPartes.Count == 0)
+        string? parteDetectada = DetectarDeclaracionParte(codigoLimpio);
+        if (parteDetectada is not null)
         {
-            string? parteDetectada = DetectarDeclaracionParte(codigoLimpio);
-            if (parteDetectada is not null)
-            {
-                pilaPartes.Push((parteDetectada, profundidadLlaves, 0, 0));
-            }
+            pilaPartes.Push((parteDetectada, profundidadLlaves, 0, 0));
         }
 
         if (esContable && pilaPartes.Count > 0)

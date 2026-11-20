@@ -1,0 +1,6 @@
+﻿================================================================================
+PROGRAMA 2 - CONTADOR DE LÍNEAS DE CÓDIGO (LOC) - PSP1
+Proceso de Software Personal (SEI PSP1)
+================================================================================
+ERROR: No se encontró la ruta o archivo: 'C:\ruta_inexistente_prueba.cs'.
+Presione Enter para salir...

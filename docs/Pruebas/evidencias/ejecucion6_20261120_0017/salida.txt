@@ -1,0 +1,6 @@
+﻿================================================================================
+PROGRAMA 2 - CONTADOR DE LÍNEAS DE CÓDIGO (LOC) - PSP1
+Proceso de Software Personal (SEI PSP1)
+================================================================================
+ERROR: No se encontraron archivos con extensión '.cs' en 'c:\Users\USER\Documents\SENA\Programa 2 PSP\Programa_2_PSP0.1\docs\Pruebas\evidencias\ejecucion6_20261120_0017\entrada'.
+Presione Enter para salir...
